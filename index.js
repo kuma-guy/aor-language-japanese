@@ -37,6 +37,7 @@ module.exports = {
            about: '詳細',
        },
        navigation: {
+           no_results: '該当するデータがありません',
            page_out_of_boundaries: '無効なページ指定です',
            page_out_from_end: '無効なページ指定です',
            page_out_from_begin: '無効なページ指定です',
@@ -60,6 +61,12 @@ module.exports = {
        },
        validation: {
            required: '必須',
+           minLength: '%{min} 文字以上で入力してください',
+           maxLength: '%{max} 文字以内で入力してください',
+           minValue: '%{min} 以上の値にしてください',
+           maxValue: '%{max} より小さい値にしてください',
+           number: '数値で入力してください',
+           email: '正しいメールアドレスを入力してください',
        },
    },
 };
